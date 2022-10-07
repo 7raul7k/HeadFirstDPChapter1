@@ -1,9 +1,10 @@
 package ro.myClass.ducks;
 
 public class RubberDuck extends Duck implements QuackBehavior, FlyBehavior {
+   Quack quack;
     @Override
     public void quack() {
-
+    quack.quack();
     }
 
     @Override

@@ -1,6 +1,8 @@
 package ro.myClass.ducks;
 
 public class MallardDuck extends Duck  {
+
+
     public MallardDuck(){
         quackBehavior = new Quack();
         flyBehavior = new FlyWithWings();
